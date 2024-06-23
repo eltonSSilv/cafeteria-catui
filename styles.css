@@ -1,0 +1,145 @@
+body {
+  background-color: rgb(25, 24, 24);
+  font-family: SugarRush;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5px;
+}
+
+.logo-cabecalho {
+  width: 150px;
+}
+
+.cabecalho {
+  flex-direction: column;
+  line-height: 0.1px;
+}
+
+a {
+  color: rgb(104, 60, 17);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(202, 158, 103);
+  transition: 0.3s all;
+}
+
+.cadastre-se {
+  border: 2px solid rgb(202, 158, 103);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+
+.cadastre-se:hover {
+  background-color: rgb(104, 60, 17);
+  color: rgb(202, 158, 103);
+  border-color: rgb(202, 158, 103);
+}
+
+.conteudo {
+  border-top: 0.4px solid rgb(202, 158, 103);
+  margin-top: 10px;
+}
+
+
+li {
+  display: inline-block;
+  margin: 20px;
+}
+
+h1 {
+  font-weight: 1200;
+  font-size: 40px;
+  font-family: amberyGarden;
+  letter-spacing: 12px;
+  margin-left: 15px;
+}
+
+.subtitulo-cabecalho {
+  font-weight: 100;
+  font-size: 15px;
+  color: rgb(104, 60, 17);
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  justify-content: space-between;
+  padding-top: 50px;
+
+}
+
+h2 {
+  font-size: 56px;
+  line-height: 10px;
+  font-family: ;
+  color: white;
+}
+
+span {
+  color: rgb(104, 60, 17);
+}
+
+p {
+  font-family: amberyGarden;
+  line-height: 20px;
+  max-width: 500px;
+  font-family: ;
+  color: white;
+}
+
+img {
+  display: flex;
+  width: 380px;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+form [type="submit"] {
+  height: 50px;
+  width: 90%;
+  background-color: rgb(104, 60, 17);
+  color: white;
+  font-weight: bold;
+  align-self: center;
+}
+
+form [type="submit"]:hover {
+  cursor: pointer;
+}
+
+input {
+  margin-top: 20px;
+  height: 20px;
+  padding: 15px;
+  border-radius: 20px;
+  border: none;
+  font-size: 15px;
+}
+
+h2 {
+  font-family: NixieOne;
+  font-size: 60px;
+}
+
+footer {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
